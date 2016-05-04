@@ -1,0 +1,131 @@
+/*
+Theme Name: Wordcomat
+Theme URI: https://wordcomat.com/themes
+Author: Renish Khunt
+Author URI: https://wordocmat.com/renish
+Description: Wordpress Blog theme
+Version: 1.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, blue, gray, red, white, yellow, dark, light, one-column, two-columns, right-sidebar, fixed-layout, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+Text Domain: wordcomat
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+.entry-content img{
+    display: block;
+    max-width: 100%;
+}
+.entry-content{
+    line-height: 1.5;
+    word-spacing: 5px;
+}
+.entry-content blockquote p{
+    margin: 0px 0px;
+}
+textarea,
+input[type="text"],
+input[type="email"],
+input[type="search"],
+input[type="url"],
+input[type="password"]{
+    width: 100%;
+}
+
+pre {
+	border: 1px solid #d1d1d1;
+	font-size: 16px;
+	font-size: 1rem;
+	line-height: 1.3125;
+	margin: 0 0 1.75em;
+	max-width: 100%;
+	overflow: auto;
+	padding: 1.75em;
+	white-space: pre;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+code {
+	background-color: #d1d1d1;
+	padding: 0.125em 0.25em;
+}
+
+/**
+ * 8.0 - Alignments
+ */
+.alignleft {
+	float: left;
+	margin: 0.375em 1.75em 1.75em 0;
+}
+.alignright {
+	float: right;
+	margin: 0.375em 0 1.75em 1.75em;
+}
+.aligncenter {
+	clear: both;
+	display: block;
+	margin: 0 auto 1.75em;
+}
+blockquote.alignleft {
+	margin: 0.3157894737em 1.4736842105em 1.473684211em 0;
+}
+blockquote.alignright {
+	margin: 0.3157894737em 0 1.473684211em 1.4736842105em;
+}
+blockquote.aligncenter {
+	margin-bottom: 1.473684211em;
+}
+
+/**
+* Comment CSS
+**/
+#comments footer{
+    padding : 0px;
+}
+#comments ol{
+    list-style: none;
+    list-style-type: none;
+    padding: 0px;
+}
+#comments > ol > li{
+    border-bottom : 1px solid #CCCCCC;
+}
+#comments  ol  li{
+    margin: 20px 0px;
+}
+#comments  ol  li.bypostauthor > article {
+    background: #ECEFF1;
+    padding: 30px 15px;
+}
+#comments  ol  li ol{
+    margin-left: 50px;
+}
+#comments ol li article p{
+    margin: 15px 0px;
+}
+#comments ol li article footer .comment-metadata{
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 10px;
+}
+#comments ol li article .comment-content{
+    margin-left: 10px;
+}
+#comments ol li article .reply a{
+    padding: 10px 20px;
+    border: 1px solid #CCCCCC;
+    text-align: right;
+}
+#comments ol li article .reply a:hover{
+    text-decoration: none;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    background: transparent;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    color : #FFFFFF;
+}

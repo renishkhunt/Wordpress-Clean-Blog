@@ -1,0 +1,13 @@
+.wordcomat-form label{
+    font-weight: bold;
+    font-size: 14px;
+}
+.wordcomat-form input[type="text"],
+.wordcomat-form select,
+.wordcomat-form textarea{
+    width: 100%;
+    margin: 5px 0px;
+}
+.wordcomat-form input[type="text"]{
+    height: 35px;
+}
