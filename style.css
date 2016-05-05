@@ -95,6 +95,7 @@ blockquote.aligncenter {
 }
 #comments  ol  li{
     margin: 20px 0px;
+    padding-bottom: 30px;
 }
 #comments  ol  li.bypostauthor > article {
     background: #ECEFF1;
@@ -117,7 +118,6 @@ blockquote.aligncenter {
 #comments ol li article .reply a{
     padding: 10px 20px;
     border: 1px solid #CCCCCC;
-    text-align: right;
 }
 #comments ol li article .reply a:hover{
     text-decoration: none;
