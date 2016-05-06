@@ -108,3 +108,9 @@ require 'inc/setup.php';
 require 'inc/wpactions.php';
 require 'inc/customptype.php';
 require 'inc/navwalkr.php';
+
+/**
+* Add Redux Framework
+**/
+require 'inc/redux-framework/redux-framework.php';
+require 'inc/redux-framework/sample/sample-config.php';
